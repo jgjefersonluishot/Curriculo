@@ -7,12 +7,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <style>
         body{
+            
             font-family: Arial, Helvetica, sans-serif;
             background-color: #f3f3f3;
             padding: 40px;
         }
 
         #curriculo {
+            
             background-color: #bfcac7;
             padding: 30px;
             border-radius: 10px;
@@ -27,6 +29,7 @@
             margin-bottom: 25px;
         }
         .editable{
+        
             border-bottom: 1px dashed #ccc;
             padding: 2px;
             min-height: 20px;
@@ -123,9 +126,23 @@
                 <li>Django e Flask</li>
             </ul>
         </div>
-
-
     </div>
+
+    <button id="btn-download"> 📄 Baixar em PDF</button>
+
+    <script>
+        document.getElementById("btn-download").addEventListener("click",function (){
+            const element = document.getElementById("curriculo");
+            html2pdf().set({
+                margin:10,
+                filename:'Curriculo_Jeferson.pdf',
+                image:{type:'jpeg',quality:0.98},
+                html2canvas:{scale:2},
+                jsPDF:{unit:'mm', format: 'a4', orientation: 'portrait'}
+            }).from(element).save();
+        });
+
+    </script>
 
 </body>
 </html>
