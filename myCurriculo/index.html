@@ -1,54 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Curriculo Jeferson</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <style>
-        body{
-            
+        body {
+
             font-family: Arial, Helvetica, sans-serif;
             background-color: #f3f3f3;
             padding: 40px;
         }
 
         #curriculo {
-            
+
             background-color: #bfcac7;
             padding: 30px;
             border-radius: 10px;
             max-width: 800px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        
-        h1,h2{
+
+        h1,
+        h2 {
             font-family: Arial;
-			font-size: 30pt;
-			
-			text-shadow: 2px 2px 2px black;
+            font-size: 30pt;
+
+            text-shadow: 2px 2px 2px black;
             color: #b85804;
             margin-bottom: 10px;
         }
-        .section{
+
+        .section {
             margin-bottom: 25px;
         }
-        .editable{
+
+        .editable {
             border-bottom: 1px dashed #ccc;
             padding: 2px;
             min-height: 20px;
             display: inline-block;
         }
-        ul{
+
+        ul {
             padding-left: 20px;
         }
-        li{
+
+        li {
             margin-bottom: 6px;
         }
-        #btn-download{
+
+        #btn-download {
             display: block;
             margin: 30px auto 0;
             padding: 30px auto 0;
@@ -59,188 +66,203 @@
             border-radius: 8px;
             cursor: pointer;
         }
-        #btn-download:hover{
+
+        #btn-download:hover {
             background-color: #0066cc;
         }
-.skill-group h5 {
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
 
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
+        .skill-group h5 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
 
-    li {
-      margin-bottom: 8px;
-    }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
 
-    i {
-      margin-right: 8px;
-    }
+        li {
+            margin-bottom: 8px;
+        }
+
+        i {
+            margin-right: 8px;
+        }
     </style>
 </head>
+
 <body>
 
     <div id="curriculo">
         <h1 contenteditable="true" class="editable" style="font-size: 300%;">Jeferson Luis Moraes Gonçalves</h1>
 
-<div class="section">
-    <p>
-        <strong><i class="fab fa-whatsapp"></i> WhatsApp:</strong>
-        <a href="https://wa.me/5551992582236" target="_blank" class="editable">(51) 99258-2236</a>
-    </p>
-    <p>
-        <strong><i class="fas fa-envelope"></i> E-mail:</strong>
-        <a href="mailto:jgjefersonluis@gmail.com" class="editable">jgjefersonluis@gmail.com</a>
-    </p>
-    <p>
-        <strong><i class="fab fa-linkedin"></i> LinkedIn:</strong>
-        <a href="https://linkedin.com/in/jeferson-gonçalves-6b066a378" target="_blank" class="editable">
-            linkedin.com/in/jeferson-gonçalves-6b066a378
-        </a>
-    </p>
+        <div class="section">
+            <p>
+                <strong><i class="fab fa-whatsapp"></i> WhatsApp:</strong>
+                <a href="https://wa.me/5551992582236" target="_blank" class="editable">(51) 99258-2236</a>
+            </p>
+            <p>
+                <strong><i class="fas fa-envelope"></i> E-mail:</strong>
+                <a href="mailto:jgjefersonluis@gmail.com" class="editable">jgjefersonluis@gmail.com</a>
+            </p>
+            <p>
+                <strong><i class="fab fa-linkedin"></i> LinkedIn:</strong>
+                <a href="https://linkedin.com/in/jeferson-gonçalves-6b066a378" target="_blank" class="editable">
+                    linkedin.com/in/jeferson-gonçalves-6b066a378
+                </a>
+            </p>
 
-    <p>
-        <strong><i class="fab fa-github"></i> GitHub:</strong>
-        <a href="https://github.com/jgjefersonluishot" target="_blank" class="editable">
-            https://github.com/jgjefersonluishot
-        </a>
-    </p>
+            <p>
+                <strong><i class="fab fa-github"></i> GitHub:</strong>
+                <a href="https://github.com/jgjefersonluishot" target="_blank" class="editable">
+                    https://github.com/jgjefersonluishot
+                </a>
+            </p>
 
 
-</div>
+        </div>
         <div class="section">
             <h2><i class="fas fa-bullseye"></i> Objetivo</h2>
             <p contenteditable="true" class="editable">
-            Desenvolvedor Python com experiência em análise de sistemas, focado em soluções eficientes e escaláveis.
-            Busco oportunidade para aplicar minhas habilidades em projetos desafiadores.
-   
+                Desenvolvedor Python com experiência em análise de sistemas, focado em soluções eficientes e escaláveis.
+                Busco oportunidade para aplicar minhas habilidades em projetos desafiadores.
+
             </p>
         </div>
 
         <div class="container mt-5">
-  <h2><i class="fas fa-tools"></i> Habilidades</h2>
-  <div class="row">
+            <h2><i class="fas fa-tools"></i> Habilidades</h2>
+            <div class="row">
 
-    <!-- Frontend -->
-    <div class="col-md-2 skill-group">
-      <h3><i class="fas fa-desktop"></i> Frontend</h3>
-      <ul>
-        <li><i class="fab fa-html5"></i> HTML</li>
-        <li><i class="fab fa-css3-alt"></i> CSS3</li>
-        <li><i class="fab fa-js"></i> JavaScript</li>
-        <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
-      </ul>
-    </div>
+                <!-- Frontend -->
+                <div class="col-md-2 skill-group">
+                    <h3><i class="fas fa-desktop"></i> Frontend</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                        <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                    </ul>
+                </div>
 
-    <!-- Backend -->
-    <div class="col-md-2 skill-group">
-      <h3><i class="fas fa-server"></i> Backend</h3>
-      <ul>
-        <li><i class="fab fa-php"></i> PHP</li>
-        <li><i class="fab fa-python"></i> Python</li>
-        <li><i class="fas fa-cogs"></i> Django</li>
-        <li><i class="fas fa-cogs"></i> Flask</li>
-      </ul>
-    </div>
+                <!-- Backend -->
+                <div class="col-md-2 skill-group">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <ul>
+                        <li><i class="fab fa-php"></i> PHP</li>
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i class="fas fa-cogs"></i> Django</li>
+                        <li><i class="fas fa-cogs"></i> Flask</li>
+                    </ul>
+                </div>
 
-    <!-- Banco de Dados -->
-    <div class="col-md-2 skill-group">
-      <h3><i class="fas fa-database"></i> Banco de Dados</h3>
-      <ul>
-  <li><i class="fas fa-database"></i> PostgreSQL</li>
-  <li><i class="fas fa-server"></i> MySQL</li>
-  <li><i class="fas fa-table"></i> SQLite</li>
-      </ul>
-    </div>
+                <!-- Banco de Dados -->
+                <div class="col-md-2 skill-group">
+                    <h3><i class="fas fa-database"></i> Banco de Dados</h3>
+                    <ul>
+                        <li><i class="fas fa-database"></i> PostgreSQL</li>
+                        <li><i class="fas fa-server"></i> MySQL</li>
+                        <li><i class="fas fa-table"></i> SQLite</li>
+                    </ul>
+                </div>
 
-    <!-- Metodologias -->
-    <div class="col-md-3 skill-group">
-      <h3><i class="fas fa-project-diagram"></i> Metodologias</h3>
-      <ul>
-        <li><i class="fas fa-check-circle"></i> Scrum (metodologia ágil)</li>
-      </ul>
-    </div>
+                <!-- Metodologias -->
+                <div class="col-md-3 skill-group">
+                    <h3><i class="fas fa-project-diagram"></i> Metodologias</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Scrum (metodologia ágil)</li>
+                    </ul>
+                </div>
 
-    <!-- Repositórios -->
-    <div class="col-md-3 skill-group">
-      <h3><i class="fas fa-code-branch"></i> Repositórios</h3>
-      <ul>
-        <li><i class="fab fa-git-alt"></i> Git</li>
-        <li><i class="fab fa-github"></i> GitHub</li>
-      </ul>
-    </div>
+                <!-- Repositórios -->
+                <div class="col-md-3 skill-group">
+                    <h3><i class="fas fa-code-branch"></i> Repositórios</h3>
+                    <ul>
+                        <li><i class="fab fa-git-alt"></i> Git</li>
+                        <li><i class="fab fa-github"></i> GitHub</li>
+                    </ul>
+                </div>
 
-  </div>
-</div>
+            </div>
+        </div>
 
-<div class="section">
-    <h2><i class="fas fa-briefcase"></i> Experiência Profissional</h2>
-    <ul contenteditable="true" class="editable">
-        <li>
-            <i class="fas fa-building"></i> <strong>Grupo MotorMac</strong> – Desenvolvedor Python Junior (2022)<br>
-            <i class="fas fa-code"></i> Desenvolvimento e manutenção de aplicações web utilizando Django e Flask. Otimização de sistemas.
-        </li>
-        <li>
-            <i class="fas fa-chalkboard-teacher"></i> <strong>Educx - Escola de informática</strong> – Professor de Desenvolvimento Web (2017–2019)<br>
-            <i class="fas fa-code"></i> Desenvolvimento e manutenção de aplicações web utilizando Django e Flask. Otimização de sistemas.
-        </li>
-        <li>
-            <i class="fas fa-building"></i> <strong>Stefanini Group</strong> – Analista de Testes (2015–2017)<br>
-            <i class="fas fa-code"></i> Desenvolvimento e manutenção de aplicações web utilizando Django e Flask. Otimização de sistemas.
-        </li>
-    </ul>
-</div>
+        <div class="section">
+            <h2><i class="fas fa-briefcase"></i> Experiência Profissional</h2>
+            <ul contenteditable="true" class="editable">
+                <li>
+                    <i class="fas fa-building"></i> <strong>Grupo MotorMac</strong> – Desenvolvedor Python Junior
+                    (2022)<br>
+                    <i class="fas fa-code"></i> Desenvolvimento e manutenção de aplicações web utilizando Django e
+                    Flask. Otimização de sistemas.
+                </li>
+                <li>
+                    <i class="fas fa-chalkboard-teacher"></i> <strong>Educx - Escola de informática</strong> – Professor
+                    de Desenvolvimento Web (2017–2019)<br>
+                    <i class="fas fa-code"></i> Desenvolvimento e manutenção de aplicações web utilizando Django e
+                    Flask. Otimização de sistemas.
+                </li>
+                <li>
+                    <i class="fas fa-building"></i> <strong>Stefanini Group</strong> – Analista de Testes
+                    (2015–2017)<br>
+                    <i class="fas fa-code"></i> Desenvolvimento e manutenção de aplicações web utilizando Django e
+                    Flask. Otimização de sistemas.
+                </li>
+            </ul>
+        </div>
 
         <div class="section">
             <h2><i class="fas fa-code"></i> Projetos</h2>
             <ul contenteditable="true" class="editable">
-                <li><strong>Sistema de Cadastro Leads</strong>Web single page com Django, gerenciamento dos leads e classificação e geração de relatórios.</li>
-                <li><strong>Sistema de Clientes Proprietarios de Imóveis</strong>API com Flask para integração e verificação de identidade.</li>
+                <li><strong>Sistema de Cadastro Leads</strong>Web single page com Django, gerenciamento dos leads e
+                    classificação e geração de relatórios.</li>
+                <li><strong>Sistema de Clientes Proprietarios de Imóveis</strong>API com Flask para integração e
+                    verificação de identidade.</li>
             </ul>
         </div>
-<div class="section">
-  <h2><i class="fas fa-graduation-cap"></i> Formação Acadêmica</h2>
-  <p contenteditable="true" class="editable"><i class="fas fa-laptop-code"></i> Tecnólogo em Análise e Desenvolvimento de Sistemas - Faculdade SENAC/RS</p>
-  <p contenteditable="true" class="editable"><i class="fas fa-chalkboard-teacher"></i> Pós-Graduação EAD - Especialista em Educação à Distância - Faculdade SENAC/RS</p>
-  <p contenteditable="true" class="editable"><i class="fas fa-university"></i> Licenciatura em História - UNISINOS - Universidade do Vale do Rio dos Sinos</p>
-</div>
+        <div class="section">
+            <h2><i class="fas fa-graduation-cap"></i> Formação Acadêmica</h2>
+            <p contenteditable="true" class="editable"><i class="fas fa-laptop-code"></i> Tecnólogo em Análise e
+                Desenvolvimento de Sistemas - Faculdade SENAC/RS</p>
+            <p contenteditable="true" class="editable"><i class="fas fa-chalkboard-teacher"></i> Pós-Graduação EAD -
+                Especialista em Educação à Distância - Faculdade SENAC/RS</p>
+            <p contenteditable="true" class="editable"><i class="fas fa-university"></i> Licenciatura em História -
+                UNISINOS - Universidade do Vale do Rio dos Sinos</p>
+        </div>
 
-<div class="section">
-  <h2><i class="fas fa-certificate"></i> Cursos e Certificações</h2>
-  <ul contenteditable="true" class="editable">
-    <li><i class="fab fa-python"></i> Desenvolvimento Web com Flask</li>
-    <li><i class="fab fa-python"></i> Python para Data Science e Machine Learning</li>
-    <li><i class="fas fa-chart-line"></i> Data Science com Python</li>
-    <li><i class="fas fa-chart-line"></i> Data Science - Extraçao e Exibição dos Dados</li>
-  <li>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" width="20" style="vertical-align: middle; margin-right: 5px;">
-  Power BI - Do Zero ao Dashboard
-</li>
-
-   
-
-  </ul>
-</div>
+        <div class="section">
+            <h2><i class="fas fa-certificate"></i> Cursos e Certificações</h2>
+            <ul contenteditable="true" class="editable">
+                <li><i class="fas fa-desktop"></i> Front-end - HTML5, CSS3 e Javascript</li>
+                
+                <li><i class="fab fa-python"></i> Desenvolvimento Web com Flask</li>
+                <li><i class="fab fa-python"></i> Python para Data Science e Machine Learning</li>
+                <li><i class="fas fa-chart-line"></i> Data Science com Python</li>
+                <li><i class="fas fa-chart-line"></i> Data Science - Extraçao e Exibição dos Dados</li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI"
+                        width="20" style="vertical-align: middle; margin-right: 5px;">
+                    Power BI - Do Zero ao Dashboard
+                </li>
+            </ul>
+        </div>
     </div>
 
     <button id="btn-download"> 📄 Baixar em PDF</button>
 
     <script>
-        document.getElementById("btn-download").addEventListener("click",function (){
+        document.getElementById("btn-download").addEventListener("click", function () {
             const element = document.getElementById("curriculo");
             html2pdf().set({
-                margin:10,
-                filename:'Curriculo_Jeferson.pdf',
-                image:{type:'jpeg',quality:0.98},
-                html2canvas:{scale:2},
-                jsPDF:{unit:'mm', format: 'a4', orientation: 'portrait'}
+                margin: 10,
+                filename: 'Curriculo_Jeferson.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2 },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
             }).from(element).save();
         });
 
     </script>
 
 </body>
+
 </html>
